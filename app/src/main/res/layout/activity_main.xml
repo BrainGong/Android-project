@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D1D1"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvlocation"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="選擇你要看的時間" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/splocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/city" />
+
+            <Spinner
+                android:id="@+id/sptheater"
+                android:layout_width="471dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/台北" />
+
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvmovie"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="選擇要看的電影" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spmovie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/movies" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvwhen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="選擇場次" />
+
+            <Spinner
+                android:id="@+id/spwhen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/玩命關頭9" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvticket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="選擇票種" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:text="優待票" />
+
+            <Spinner
+                android:id="@+id/spchild"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:entries="@array/ticket" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:text="全票" />
+
+            <Spinner
+                android:id="@+id/spadult"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:entries="@array/ticket" />
+
+            <TextView
+                android:id="@+id/theatertvt"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:text="早場" />
+
+            <Spinner
+                android:id="@+id/spearly"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:entries="@array/ticket" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="選擇要搭配的食物" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/lvfood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/food" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvchoice"
+            android:layout_width="match_parent"
+            android:layout_height="91dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btcomfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="確認訂票"
+                app:backgroundTint="#F79754DD" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

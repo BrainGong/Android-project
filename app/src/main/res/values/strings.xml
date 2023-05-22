@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="linksite"><a href="https://www.youtube.com/watch?v=7k2P3mF5Eso">預告片</a></string>
+    <string name="man"><a href="https://www.youtube.com/watch?v=gOjQxvRtMBI">預告片</a></string>
+    <string name="topgun"><a href="https://www.youtube.com/watch?v=eiabw4bU5HQ">預告片</a></string>
+    <string name="widows"><a href="https://www.youtube.com/watch?v=-gQHSE7cJg8">預告片</a></string>
+    <string-array name="city">
+        <item>台北</item>
+        <item>台中</item>
+        <item>台南</item>
+    </string-array>
+    <string-array name="台北">
+        <item>信義威秀影城</item>
+        <item>東南亞秀泰影城</item>
+        <item>台北新光影城</item>
+    </string-array>
+    <string-array name="台中">
+        <item>臺中大遠百威秀影城</item>
+        <item>台中站前秀泰影城</item>
+        <item>台中新光影城</item>
+    </string-array>
+    <string-array name="台南">
+        <item>台南大遠百威秀影城</item>
+        <item>台南國賓影城</item>
+        <item>台南新光影城</item>
+    </string-array>
+    <string-array name="theater">
+        <item>請選擇要查詢的影城</item>
+        <item>信義威秀影城</item>
+        <item>東南亞秀泰影城</item>
+        <item>台北新光影城</item>
+        <item>臺中大遠百威秀影城</item>
+        <item>台中站前秀泰影城</item>
+        <item>台中新光影城</item>
+        <item>台南大遠百威秀影城</item>
+        <item>台南國賓影城</item>
+        <item>台南新光影城</item>
+    </string-array>
+    <string-array name="food">
+        <item>吉拿棒</item>
+        <item>爆米花</item>
+        <item>熱狗堡</item>
+        <item>雪碧</item>
+        <item>可樂</item>
+        <item>咖啡</item>
+    </string-array>
+    <string-array name="ticket">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="movies">
+        <item>選擇要看的電影</item>
+        <item>玩命關頭9</item>
+        <item>當男人戀愛時</item>
+        <item>捍衛戰士2:獨行俠</item>
+        <item>黑寡婦</item>
+    </string-array>
+    <string-array name="玩命關頭9">
+        <item>11:00</item>
+        <item>13:40</item>
+        <item>16:20</item>
+        <item>19:30</item>
+        <item>23:30</item>
+    </string-array>
+    <string-array name="捍衛戰士獨行俠">
+        <item>11:20</item>
+        <item>13:30</item>
+        <item>15:20</item>
+        <item>19:30</item>
+        <item>22:30</item>
+    </string-array>
+    <string-array name="當男人戀愛時">
+        <item>11:10</item>
+        <item>13:40</item>
+        <item>16:20</item>
+        <item>19:30</item>
+        <item>23:20</item>
+    </string-array>
+    <string-array name="黑寡婦">
+        <item>10:00</item>
+        <item>13:40</item>
+        <item>16:50</item>
+        <item>19:10</item>
+        <item>22:20</item>
+    </string-array>
+    <string-array name="noearly">
+        <item>0</item>
+    </string-array>
+    <string-array name="one">
+        <item>00:00</item>
+    </string-array>
+
+</resources>
